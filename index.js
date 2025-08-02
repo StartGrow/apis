@@ -108,5 +108,5 @@ app.all('/', (_, res) => {
   });
 });
 
-const PORT = process.env.PORT || 3111;
+const PORT = process.env.PORT || 7860;
 app.listen(PORT, () => console.log(`Server berjalan di http://localhost:${PORT}`));
